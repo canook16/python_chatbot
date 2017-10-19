@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 import re
-# Josh Novosad 260555158
+# Josh Novosad 
 
 if len(sys.argv) < 2: # makes sure there is the proper amount of arguments
 	print "Not enough arguments"
