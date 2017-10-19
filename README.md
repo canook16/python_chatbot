@@ -23,23 +23,20 @@ Assignment 3. That is Send: and Receive: are written, followed by a
 one-line message. We will not use any chat handle here. Each time a
 user enters a query message (one single line of text ended by new-line),
 your program must immediately generate a response message where:
-
-• The first word in the response (R1) starts with a capital letter.
-
-• If the user's last word (QN) occurs in the text, R1 must be chosen
+<ul>
+<li>The first word in the response (R1) starts with a capital letter.</li>
+<li>If the user's last word (QN) occurs in the text, R1 must be chosen
 so that QN-R1 has been seen in the text at least once. If QN was
-not seen in the text, R1 is allowed to be any word from the text.
-
-• Every word pair in the response (RI-RJ) must have been seen at
-least once in the text.
-
-• The response can end in three ways. (1) On a stop-pair. These
+not seen in the text, R1 is allowed to be any word from the text.</li>
+<li>Every word pair in the response (RI-RJ) must have been seen at
+least once in the text.</li>
+<li>The response can end in three ways. (1) On a stop-pair. These
 are pairs that ended a sentence in the text at least once. Every
 time a stop pair is output, the response must end. (2) If a word
 RI is chosen for which no pair RI-RJ exists, then RI must be the
 last word in the response. This only happens when RI ends a text
 and has never been seen otherwise. (3) If twenty words have been
 correctly generated without the first two conditions being met,
-then word twenty will end the response.
-
-• The last word in the response must be followed by a period.
+then word twenty will end the response.</li>
+<li>The last word in the response must be followed by a period.</li>
+</ul>
