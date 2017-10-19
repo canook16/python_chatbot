@@ -2,7 +2,7 @@
 import sys
 import re
 import random
-# Josh Novosad 260555158
+# Josh Novosad 
 
 listOfFiles = sys.argv[1:] # create a list of all potential files
 for txtFile in listOfFiles:
